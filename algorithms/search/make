@@ -1,0 +1,7 @@
+make: search.o
+    gcc -o search.o
+search.o: search.c
+    gcc -c search.c
+clean:
+    rm search.o \
+       search
